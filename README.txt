@@ -7,11 +7,9 @@
 ------------------------------------------------------------------------------------------
 			
 VBMFA is a variational approximation to a full Bayesian implementation
-of Mixtures of Factor Analysers. Included in this tar file are
+of Mixtures of Factor Analysers.
 
-  o the VBMFA functions written in MATLAB, most of which have help lines.
-
-DEMO:	
+DEMOS:	
 	run
 	1) demo_cake_ssl
 	2) demo_gauss_ssl
@@ -20,10 +18,6 @@ DEMO:
 	5) demo_chainlink_ssl
 	6) demo_atom_ssl
 	
-PLOT OPTION: after every accepted epoch, plots:
-	a) 1sd ellipses of analysers,
-	b) component mixing proportions.
-
 The code should work, but is by no means perfect and is both redundant and potentially 
 buggy.
 
