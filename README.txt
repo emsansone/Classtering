@@ -3,7 +3,7 @@
 	Classtering: Variational Bayesian Mixtures of Factor Analysers
 
 			(C) Emanuele Sansone, 2015			
-			    emanuele@esansone.com
+			      e.sansone@unitn.it
 ------------------------------------------------------------------------------------------
 			
 VBMFA is a variational approximation to a full Bayesian implementation
