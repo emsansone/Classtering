@@ -41,7 +41,7 @@ clear x id1 id2 i MEANX MEANY ppp;
 figure;
 plot_ssl_data(Y,Y_labels);
 title('Ground trouth')
-[Y Y_labels] = sample_dataset(Y,Y_labels,20);
+[Y Y_labels] = sample_dataset(Y,Y_labels,50);
 net = vbmfa(Y,Y_labels,2,0,1,10);
 plot_output_data(Y,net);
 title('Predicted labels')
