@@ -6,10 +6,6 @@
 VBMFA is a variational approximation to a full Bayesian implementation
 of Mixtures of Factor Analysers.
 
-|-------------|-------------|-------------|
-| <img src='animations/cake.gif'> | | |
-| CAKE dataset | | |
-
 ## Demos	
 run
 * demo_cake_ssl
@@ -19,10 +15,12 @@ run
 * demo_chainlink_ssl
 * demo_atom_ssl
 	
-The code should work, but is by no means perfect and is both redundant and potentially 
-buggy.
+### Datasets
 
-Please email with your comments/suggestions/bugs!
+| CAKE | Spiral | Chainlink |
+|---|---|---|
+| <img src='animations/cake.gif'> | | |
+
 
 ## Other information
 * This package is free for academic usage. You can run it at your own risk. For other purposes, please contact me.
