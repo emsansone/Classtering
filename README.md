@@ -3,8 +3,7 @@
 ------------------------------------------------------------------------------------------
 			
 ## Description
-VBMFA is a variational approximation to a full Bayesian implementation
-of Mixtures of Factor Analysers.
+Matlab code for paper [Classtering: Joint Classification and Clustering with Mixture of Factor Analysers](http://ebooks.iospress.com/volumearticle/44861) 
 
 ## Demos	
 run
@@ -27,5 +26,11 @@ run
 
 * If you use this software, please cite as:
 ```
-Emanuele Sansone, Andrea Passerini, Francesco De Natale "Classtering: Joint Classification and Clustering with Mixture of Factor Analysers", European Conference on Artificial Intelligence (ECAI) 2016
+@inproceedings{sansone2016classtering,
+  title={Classtering: Joint Classification and Clustering with Mixture of Factor Analysers},
+  author={Sansone, Emanuele and Passerini, Andrea and De Natale, Francesco},
+  booktitle={ECAI},
+  year={2016},
+  organization={IOS PRESS}
+}
 ```
