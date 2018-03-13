@@ -20,7 +20,7 @@ buggy.
 
 Please email with your comments/suggestions/bugs!
 
-## Attention
+## Other information
 * This package is free for academic usage. You can run it at your own risk. For other purposes, please contact me.
 
 * If you use this software, please cite as:
