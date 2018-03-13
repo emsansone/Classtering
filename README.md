@@ -18,7 +18,7 @@ run
 
 | CAKE | Spiral | Chainlink |
 |---|---|---|
-| <img src='animations/cake.gif'> | | |
+| <img src='animations/cake.gif'> | <img src='animations/spiral.gif'> | |
 
 
 ## Other information
