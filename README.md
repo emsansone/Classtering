@@ -6,6 +6,9 @@
 VBMFA is a variational approximation to a full Bayesian implementation
 of Mixtures of Factor Analysers.
 
+| <img src='animations/cake.gif' | | |
+| CAKE dataset | | |
+
 ## Demos	
 run
 * demo_cake_ssl
