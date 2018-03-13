@@ -31,8 +31,6 @@ function net = vbmfa(Y,Y_labels,num_clusters,maxdim,pcaflag,Fflag,dsp,net);
 [N K] = size(Y_labels);
 [p n] = size(Y);
 
-strng = './Atom/Atom';
-
 if nargin<4
   k = (p-1) + 1; % i.e. that sufficient to capture covariance, plus one for the bias.
 else

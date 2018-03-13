@@ -30,8 +30,6 @@ function net = vbmfa(Y,Y_labels,maxdim,pcaflag,Fflag,dsp,net);
 [N K] = size(Y_labels);
 [p n] = size(Y);
 
-strng = './Atom/Atom';
-
 if nargin<3
   k = (p-1) + 1; % i.e. that sufficient to capture covariance, plus one for the bias.
 else
@@ -144,7 +142,7 @@ workspace = {psii Lm Lcov Qns a b u g};
 candorder = [1:size(Lm,2) 0]; pos = 1; parent = candorder(pos);
 
 
-while parent ~= 0;
+while parent ~= 0
   
   epoch = epoch+1; cophd = 0;
   Fcalc; Ftarg = F; dF = 0;
@@ -201,7 +199,7 @@ while parent ~= 0;
   
   % Move along the candidate list; if we reach the end start over.
   parent = candorder(pos);
-  if parent == 0;
+  if parent == 0
     tries = tries+1;
     if tries ~= maxtries
       fprintf('\nEnd of ordering reached, reordering and trying more splits\n')
