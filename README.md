@@ -16,9 +16,9 @@ run
 	
 ### Datasets
 
-| CAKE | Chainlink | Spiral |
+| CAKE | Ring | Chainlink | Spiral |
 |---|---|---|
-| <img src='animations/cake.gif'> | <img src='animations/chainlink.gif'> | <img src='animations/spiral.gif'> |
+| <img src='animations/cake.gif'> | <img src='animations/ring.gif'> | <img src='animations/chainlink.gif'> | <img src='animations/spiral.gif'> |
 
 
 ## Other information
