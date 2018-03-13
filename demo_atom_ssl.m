@@ -2,6 +2,9 @@
 % Emanuele Sansone GCNU 15/12/14
 
 close all; clear all; clc;
+
+addpath(genpath(pwd))
+
 disp('Loading data (atom distribution)');
 load data/Atom.mat;
 atom = atom';

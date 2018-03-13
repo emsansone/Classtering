@@ -2,6 +2,9 @@
 % Emanuele Sansone GCNU 15/12/14
 
 close all; clear all; clc;
+
+addpath(genpath(pwd))
+
 disp('Loading data (chainlink distribution)');
 load data/Chainlink.mat;
 chainlink = chainlink';

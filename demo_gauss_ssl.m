@@ -5,6 +5,9 @@
 % Emanuele Sansone GCNU 15/12/14
 
 close all; clear all; clc
+
+addpath(genpath(pwd))
+
 disp('Generating 200 samples from 5 Gaussians');
 mu = [-2 20; 6 13; 10 5; -10 0; -20 -2];
 %mu = [1 2; 4 1; 1 5; -1 0; -2 -2];
