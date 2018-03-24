@@ -22,8 +22,6 @@ run
 
 
 ## Other information
-* This package is free for academic usage. You can run it at your own risk. For other purposes, please contact me.
-
 * If you use this software, please cite as:
 ```
 @inproceedings{sansone2016classtering,
@@ -34,3 +32,9 @@ run
   organization={IOS PRESS}
 }
 ```
+* Contact me
+
+### Licensing
+
+The code is provided "as-is" under the terms of General Public License v2. 
+See ```LICENSE.txt``` for full details.
